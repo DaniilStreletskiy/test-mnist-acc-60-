@@ -1,7 +1,7 @@
 import numpy
 
 # keras 2.1.3 backend tensorflow
-# Epoch 1/5 7s - loss: 13.2108 - acc: 0.1737 - val_loss: 12.5411 - val_acc: 0.2148
+# Epoch 1/10 - 7s - loss: 1.3220 - acc: 0.6916 - val_loss: 0.7795 - val_acc: 0.8502
 #
 from keras.datasets import mnist
 #from keras.models import Sequential
@@ -9,7 +9,7 @@ from keras.datasets import mnist
 from keras.utils import np_utils
 
 # tensorflow 1.4.1
-# Epoch 1/10 - 7s - loss: 1.3220 - acc: 0.6916 - val_loss: 0.7795 - val_acc: 0.8502
+# Epoch 1/5 7s - loss: 13.2108 - acc: 0.1737 - val_loss: 12.5411 - val_acc: 0.2148
 #
 #from tensorflow.python.keras.datasets import mnist
 from tensorflow.python.keras.models   import Sequential
